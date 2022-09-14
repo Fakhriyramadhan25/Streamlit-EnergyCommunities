@@ -37,8 +37,10 @@
 <li>pip install numpy</li>
 </ul>
 
+   <h3>How to run locally</h3>
 <p>After installing the the libraries as a package module, you need to know that there are two outsource library it is provided by MAPBOX and RENEWABLE NINJA. Both API require a token with limits each day 50 request per day for renewable energy and it is unlimited for MAPBOX. To run locally you need to open the terminal and type <span><b>"streamlit run app.py"</b></span> however incase you cannot add the streamlit to your path you can also use <span><b>"python -m streamlit run app.py"</b></span></p>
 
+ <h3>Limitiation</h3>
 <p>Streamlit is a library that is very limited for developing a web application, it is for merely data visualization. These are the limitation of the web application whether it is caused by the limitation of Streamlit or even by the features provided.</p>
 <ul>
 <li>There is no routing system</li>
@@ -49,7 +51,7 @@
 <li>Changing interface is not flexible</li>
 <li>Only one streamlit form can be created in a page because when the forms is submitted it triggers the whole page to be reloaded</li>
 <li>To pass variable between pages only limited using session because there is no routing hence the variable cannot just be exported and imported between pages.</li>
-<li>Not every variable is pass from the calculation page to result page since not every information is needed in the result page</li>
+<li>Not every variable is passed from the calculation page to result page since not every information is needed in the result page</li>
 </ul>
 
 <p>The web apps still requires enchancement and refinement, feel free to fetch the code from the github</p>
