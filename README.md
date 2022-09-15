@@ -54,7 +54,7 @@
 <li>Not every variable is passed from the calculation page to result page since not every information is needed in the result page</li>
 </ul>
 
-    <h3>Assumptions</h3>
+ <h3>Assumptions</h3>
 <p>In this web application, we also apply some assumption to the calculation. These are as listed below:</p>
 <ul>
 <li>To calculate the energy storage we decide the battery sizing is 60% of the RES capacity value </li>
