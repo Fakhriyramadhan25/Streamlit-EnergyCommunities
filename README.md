@@ -55,6 +55,14 @@
 </ul>
 
 <p>The web apps still requires enchancement and refinement, feel free to fetch the code from the github</p>
+
+<p>In this web application, we also apply some assumption to the calculation. These are as listed below:</p>
+<ul>
+<li>To calculate the energy storage we decide the battery sizing is 60% of the RES capacity value </li>
+<li>We recommend the RES capacity based on the area and the effective value is 80%. Moreover, each solar PV has 0.5 KWP capacity</li>
+<li>If there is no storage sizing we consider the energy saving is only 70% of the RES potential</li>
+<li>The price rate of the electricity is 250 euros/MWh, it applies the same for all of the 10 countries. </li>
+</ul>
 </nav>
 
 <footer>
